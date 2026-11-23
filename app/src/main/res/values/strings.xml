@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Grimorio</string>
+    <string name="character_search_title">Busca de personagens</string>
+    <string name="character_query_label">Nome do personagem</string>
+    <string name="character_query_hint">Ex.: Weasley</string>
+    <string name="search_character">Buscar</string>
+    <string name="open_character_search">Buscar personagem</string>
+    <string name="character_search_hint">Digite pelo menos 3 caracteres do nome. Será exibido o primeiro personagem encontrado.</string>
+    <string name="character_search_loading">Buscando personagem…</string>
+    <string name="character_search_empty">Nenhum personagem encontrado</string>
+    <string name="character_search_error">Não foi possível buscar o personagem. Verifique sua conexão e tente novamente.</string>
+    <string name="character_query_required">Digite o nome de um personagem.</string>
+    <string name="character_query_too_short">Digite pelo menos 3 caracteres.</string>
+    <string name="character_not_informed">Não informado</string>
+    <string name="character_name_value">Nome: %1$s</string>
+    <string name="character_species_value">Espécie: %1$s</string>
+    <string name="character_house_value">Casa: %1$s</string>
 </resources>
