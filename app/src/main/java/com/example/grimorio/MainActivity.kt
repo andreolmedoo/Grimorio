@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.open_character_search).setOnClickListener {
             startActivity(Intent(this, CharacterSearchActivity::class.java))
         }
+        findViewById<Button>(R.id.open_creature_search).setOnClickListener {
+            startActivity(Intent(this, CreatureSearchActivity::class.java))
+        }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
